@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { HttpService } from '../../http.service';
 
 @Component({
   selector: 'app-about-me',
@@ -7,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './about-me.component.scss'
 })
 export class AboutMeComponent {
+  info: any;
+  httpService= inject(HttpService);
+
+
+  ngOnInit(){
+    this.httpService.getAboutInfo().subscribe(result=>{
+      this.info = result;
+      console.log(this.info)
+    });
+  }
 
 }

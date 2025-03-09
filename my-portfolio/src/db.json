@@ -1,0 +1,48 @@
+{
+    "skils":[
+        {
+            "name": "Angular ",
+            "exp": 10
+        },
+        {
+            "name": "React ",
+            "exp": 10
+        },
+        {
+            "name": "Node ",
+            "exp": 10
+        },
+        {
+            "name": "Node ",
+            "exp": 10
+        },
+        {
+            "name": "Node ",
+            "exp": 10
+        }
+    ],
+    "projects":[
+        {
+            "name":"De olho",
+            "details":" O projeto De Olho, consiste em um app que monitora os gastos dos deputados, por mei da api da camara calculamos seua gastos e ainda detalhamos sua informações pessoais...",
+            "url":"https://github.com/Mandygando/de_olho"
+        },
+        {
+            "name":"De olho",
+            "details":" O projeto De Olho, consiste em um app que monitora os gastos dos deputados, por mei da api da camara calculamos seua gastos e ainda detalhamos sua informações pessoais...",
+            "url":"https://github.com/Mandygando/de_olho"
+        },
+        {
+            "name":"De olho",
+            "details":" O projeto De Olho, consiste em um app que monitora os gastos dos deputados, por mei da api da camara calculamos seua gastos e ainda detalhamos sua informações pessoais...",
+            "url":"https://github.com/Mandygando/de_olho"
+        }
+    ],
+    "about":
+        {
+            "name": "Felipe Carvalho",
+            "shortInfo": "Analista e Desenvolvedor de Sistema e Engenheiro de SoftWare",
+            "longInfo":"Sou um estudante e professor de artes marciais que busca entrar no mercado de trabalho e evoluir minhas habilidades de programação, sou bastante proativo e amo aprender novas tecnologias. Já que busco a área de Segurança da informação, e essencial ter um conhecimento amplo em todas as áreas da TI, por isso amo desafios e aprendizados."
+        }
+
+  }
